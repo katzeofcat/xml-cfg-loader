@@ -57,3 +57,4 @@ IF you want more then one sequence you can add like:
 		<operation cmd="SYS LIST"/>
 	</sequence>
 </command>
+

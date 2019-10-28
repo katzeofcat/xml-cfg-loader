@@ -21,7 +21,8 @@ DT421 uses baud rate 115200, with no parity, 8 data bits and no flowcontrol. Com
  
 
 For example:
-~~~<config>
+~~~
+<config>
 	<port>COM3</port>  // from device manager
 	<baudrate>115200</baudrate>    //
 	<databits>8</databits>
@@ -35,7 +36,8 @@ For flowcontrol, 0 indicate no flowcontrol and 1 is have flowcontrol.
 For the Command that you want to send to the DT you need the following format:
 
 For example:
-~~~<command>
+~~~
+<command>
 	<sequence loop="1" name='test1'>
 		<operation cmd="ETM TEST ' FY110660830'"/>
 		<operation cmd="ETM INFO"/>
@@ -50,7 +52,8 @@ For cmd is the command that need to send to DT and if you want to use “” ins
 Mode indicate which debug mode that you want to use in DT and eol is the end of line indicator that to stop the debug mode
 
 IF you want more then one sequence you can add like:
-~~~<command>
+~~~
+<command>
 	<sequence loop="1" name='test1'>
 		<operation cmd="ETM TEST ' FY110660830'"/>
 		<operation cmd="ETM INFO"/>

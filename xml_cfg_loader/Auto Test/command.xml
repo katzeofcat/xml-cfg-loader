@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command>
+	<sequence loop="1" name='test1'>
+		<operation cmd="ETM TEST ' FY110660830'"/>
+		<operation cmd="ETM INFO"/>
+		<operation cmd="gps replay read" mode='d' eol="End of replay file"/>
+		<operation cmd="ETM TEST 0"/>
+		<operation cmd="ETM INFO"/>
+	</sequence>
+	<sequence loop="3" name='test2'>
+		<operation cmd="ETM list"/>
+		<operation cmd="SYS LIST"/>
+	</sequence>
+</command>
+

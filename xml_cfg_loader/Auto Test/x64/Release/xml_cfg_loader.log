@@ -1,0 +1,11 @@
+﻿  logger.cpp
+  rs232.cpp
+  SerialConnection.cpp
+  xml.cpp
+  AutoTest.cpp
+C:\Users\ewong\Downloads\xml_cfg_loader\Auto Test\logger.cpp(21,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 750 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  xml_cfg_loader.vcxproj -> C:\Users\ewong\Downloads\xml_cfg_loader\Auto Test\x64\Release\Auto_Test.exe

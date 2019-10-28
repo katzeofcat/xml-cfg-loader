@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<port>COM3</port>
+	<baudrate>115200</baudrate>
+	<databits>8</databits>
+	<parity>N</parity>
+	<stopbit>1</stopbit>
+	<flowcontrol>0</flowcontrol>
+</config>

@@ -2,18 +2,18 @@
 Load config from xml and send to embedded system via serial connection
 How to USE Auto Test
 
-##What’s it for?
+## What’s it for?
 This console program is used for sending command to DT via rs232 connection and receive any reply from DT, you may specify the command to be send,
 the sequence times that you want it to run as well as the debug mode and the indicator of the end of debug message.
 Also, you can change the configuration for serial connection comport, baudrate, databits, parity, stopbit and flowcontrol.
 
-##Can I use it?
+## Can I use it?
 This can be used for all the command in DT. But for debug mode you must know which string is indicate that debug is finish.
 
-##How do I do it?
+## How do I do it?
 Connect DT 421 to your PC using USB A Male to B Male cable. Find out the comport from device manager 
 
-##Configuration
+## Configuration
 Create two files call “config.xml” and “command.xml” under the directory.
 Note:  For config.xml you will need to specify comport, baudrate, databits, parity, stopbit and flowcontrol.
 DT421 uses baud rate 115200, with no parity, 8 data bits and no flowcontrol. Comport can be found by looking at device manager.
